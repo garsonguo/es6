@@ -3,7 +3,7 @@ import gulpif from 'gulp-if'
 import liveserver from 'gulp-live-server'
 import args from './util/args'
 
-gulp.task('server', () => {
+gulp.task('serve', () => {
     if (args.watch) {
         return cb();
     }
